@@ -324,7 +324,10 @@ body {
 	border-radius: 50%;
 	background: var(--my-white);
 	border: 1px solid rgba(0, 0, 0, 0.1);
-	transition: border-color var(--transition-value);
+}
+
+.modal-close-btn-icon {
+	transition: fill var(--transition-value);
 }
 
 .hero-modal-btn:hover .modal-close-btn-icon,

@@ -844,8 +844,4 @@ button[type=submit].hero-btn {
   margin: 0;
   transform: translatey(101%);
   transition: transform var(--transition-value);
-}
-
-.test-test-tes {
-  background: red;
 }/*# sourceMappingURL=main.css.map */

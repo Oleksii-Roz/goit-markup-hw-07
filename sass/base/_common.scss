@@ -38,3 +38,13 @@ body {
 	background-color: var(--my-white);
 	color: var(--first-text-color);
 }
+
+.list {
+	list-style: none;
+	padding-left: 0;
+	margin: 0;
+}
+
+.link {
+	text-decoration: none;
+}

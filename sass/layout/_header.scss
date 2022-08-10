@@ -1,0 +1,109 @@
+/* ==========Header шапка сайта (WebStudio, Студия, Портфолио, Контакты, email, tel) index.html========== */
+.header-bg {
+	background: var(--my-white);
+	border-bottom: 1px solid #ececec;
+}
+
+.header-bg-flex {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header-nav {
+	display: flex;
+	align-items: center;
+}
+
+.header-menu-fist {
+	display: flex;
+	align-items: center;
+}
+
+.header-menu-second {
+	display: flex;
+	align-items: center;
+	margin-left: auto;
+}
+
+.header-address-item {
+	display: inline;
+	margin-right: 30px;
+}
+
+.section.header-bg {
+	padding-top: 24px;
+	padding-bottom: 25px;
+}
+
+.logo {
+	font-family: Raleway, sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.19;
+	color: var(--accent-color);
+	margin-right: 93px;
+}
+
+.logo-header {
+	color: var(--logo-second-part);
+}
+
+.header-menu-item .header-nav-link {
+	position: relative;
+}
+
+.header-menu-item:not(:last-child) {
+	margin-right: 50px;
+}
+
+.header-nav-link {
+	font-weight: 500;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+	color: var(--first-text-color);
+
+	padding-top: 32px;
+	padding-bottom: 32px;
+
+	transition: color var(--transition-value);
+}
+
+.header-nav-link:hover,
+.header-nav-link:focus,
+.header-nav-link.current {
+	color: var(--accent-color);
+}
+
+.header-menu-item > .current::before {
+	content: "";
+	width: 100%;
+	height: 4px;
+	position: absolute;
+	bottom: -2px;
+	background: var(--accent-color);
+	border-radius: 2px;
+}
+
+.header-link {
+	display: inline-flex;
+	font-weight: 500;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+	color: var(--second-text-color);
+
+	transition: color var(--transition-value);
+}
+
+.header-link:hover,
+.header-link:focus {
+	color: var(--accent-color);
+	fill: var(--accent-color);
+}
+
+.header-link-icon {
+	width: 16px;
+	height: 16px;
+	margin-right: 10px;
+	fill: currentColor;
+}

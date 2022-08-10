@@ -464,11 +464,6 @@ body {
 	border: 0;
 }
 
-.modal-form-check:focus + .modal-form-check-desc::before {
-	background-image: url(../images/checkbox/icon-checkbox-on.svg);
-	border: 0;
-}
-
 .modal-btn {
 	font-family: inherit;
 	font-weight: 700;

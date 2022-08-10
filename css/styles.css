@@ -442,8 +442,8 @@ body {
 
 .modal-form-check-desc::before {
 	display: block;
-	width: 16px;
-	height: 15px;
+	width: 18px;
+	height: 18px;
 	border: 1px solid var(--first-text-color);
 	content: "";
 	cursor: pointer;

@@ -1,0 +1,65 @@
+@charset "UTF-8";
+:root {
+  --first-text-color: #212121;
+  --second-text-color: #757575;
+  --my-white: #ffffff;
+  --accent-color: #2196f3;
+  --background-dark-color: #2f303a;
+  --main-bg: #f5f4fa;
+  --logo-second-part: #000000;
+  --social-logo: #afb1b8;
+  --transition-value: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;
+}
+
+/*Убираем внешние и внутренние отступы*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+address {
+  font-style: normal;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  background-color: var(--my-white);
+  color: var(--first-text-color);
+}/*# sourceMappingURL=main.css.map */

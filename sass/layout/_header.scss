@@ -1,10 +1,10 @@
 /* ==========Header шапка сайта (WebStudio, Студия, Портфолио, Контакты, email, tel) index.html========== */
-.header-bg {
+.header {
 	background: var(--my-white);
 	border-bottom: 1px solid #ececec;
 }
 
-.header-bg-flex {
+.header-flex {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -15,37 +15,37 @@
 	align-items: center;
 }
 
-.header-menu-fist {
+.header-nav__first {
 	display: flex;
 	align-items: center;
 	margin-left: 93px;
 }
 
-.header-menu-second {
+.header-contact {
 	display: flex;
 	align-items: center;
 	margin-left: auto;
 }
 
-.header-address-item {
+.header-contact__item {
 	display: inline;
 	margin-right: 30px;
 }
 
-.section.header-bg {
+.section.header {
 	padding-top: 24px;
 	padding-bottom: 25px;
 }
 
-.header-menu-item .header-nav-link {
+.header-nav__item .header-nav__link {
 	position: relative;
 }
 
-.header-menu-item:not(:last-child) {
+.header-nav__item:not(:last-child) {
 	margin-right: 50px;
 }
 
-.header-nav-link {
+.header-nav__link {
 	font-weight: 500;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
@@ -57,13 +57,13 @@
 	transition: color var(--transition-value);
 }
 
-.header-nav-link:hover,
-.header-nav-link:focus,
-.header-nav-link.current {
+.header-nav__link:hover,
+.header-nav__link:focus,
+.header-nav__link.current {
 	color: var(--accent-color);
 }
 
-.header-menu-item > .current::before {
+.header-nav__item > .current::before {
 	content: "";
 	width: 100%;
 	height: 4px;
@@ -73,7 +73,7 @@
 	border-radius: 2px;
 }
 
-.header-link {
+.header-contact__link {
 	display: inline-flex;
 	font-weight: 500;
 	line-height: 1.14;
@@ -83,13 +83,13 @@
 	transition: color var(--transition-value);
 }
 
-.header-link:hover,
-.header-link:focus {
+.header-contact__link:hover,
+.header-contact__link:focus {
 	color: var(--accent-color);
 	fill: var(--accent-color);
 }
 
-.header-link-icon {
+.header-contact__icon {
 	width: 16px;
 	height: 16px;
 	margin-right: 10px;

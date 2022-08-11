@@ -612,7 +612,7 @@ body {
 }
 
 /* ==========Footer Подвал (адрес, почта, телефон) index.html==========  */
-.footer-bg {
+.footer {
   background: var(--background-dark-color);
   padding-top: 60px;
   padding-bottom: 60px;

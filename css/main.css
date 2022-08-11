@@ -94,6 +94,23 @@ body {
   color: var(--first-text-color);
 }
 
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--accent-color);
+}
+
+.logo-header {
+  color: var(--logo-second-part);
+}
+
+.footer-logo {
+  display: block;
+  margin-bottom: 20px;
+}
+
 /* ==========Header шапка сайта (WebStudio, Студия, Портфолио, Контакты, email, tel) index.html========== */
 .header-bg {
   background: var(--my-white);
@@ -114,6 +131,7 @@ body {
 .header-menu-fist {
   display: flex;
   align-items: center;
+  margin-left: 93px;
 }
 
 .header-menu-second {
@@ -130,19 +148,6 @@ body {
 .section.header-bg {
   padding-top: 24px;
   padding-bottom: 25px;
-}
-
-.logo {
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  color: var(--accent-color);
-  margin-right: 93px;
-}
-
-.logo-header {
-  color: var(--logo-second-part);
 }
 
 .header-menu-item .header-nav-link {
@@ -628,16 +633,6 @@ body {
 
 .li-footer-item:not(:nth-child(3n)) {
   margin-bottom: 9px;
-}
-
-.a-footer-logo-link {
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  color: var(--accent-color);
-  margin-bottom: 20px;
-  display: block;
 }
 
 .a-footer-link-address {

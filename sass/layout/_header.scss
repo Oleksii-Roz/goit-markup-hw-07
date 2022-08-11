@@ -18,6 +18,7 @@
 .header-menu-fist {
 	display: flex;
 	align-items: center;
+	margin-left: 93px;
 }
 
 .header-menu-second {
@@ -34,19 +35,6 @@
 .section.header-bg {
 	padding-top: 24px;
 	padding-bottom: 25px;
-}
-
-.logo {
-	font-family: Raleway, sans-serif;
-	font-weight: 700;
-	font-size: 26px;
-	line-height: 1.19;
-	color: var(--accent-color);
-	margin-right: 93px;
-}
-
-.logo-header {
-	color: var(--logo-second-part);
 }
 
 .header-menu-item .header-nav-link {

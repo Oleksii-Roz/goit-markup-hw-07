@@ -153,11 +153,9 @@ body {
 .header-nav__item .header-nav__link {
   position: relative;
 }
-
 .header-nav__item:not(:last-child) {
   margin-right: 50px;
 }
-
 .header-nav__item > .current::before {
   content: "";
   width: 100%;
@@ -189,9 +187,7 @@ body {
   color: var(--second-text-color);
   transition: color var(--transition-value);
 }
-
-.header-contact__link:hover,
-.header-contact__link:focus {
+.header-contact__link:hover, .header-contact__link:focus {
   color: var(--accent-color);
   fill: var(--accent-color);
 }

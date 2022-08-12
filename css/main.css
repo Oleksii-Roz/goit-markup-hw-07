@@ -245,9 +245,7 @@ body {
   align-items: center;
   transition: background-color var(--transition-value);
 }
-
-.hero-btn:hover,
-.hero-btn:focus {
+.hero-btn:hover, .hero-btn:focus {
   background: #188ce8;
 }
 

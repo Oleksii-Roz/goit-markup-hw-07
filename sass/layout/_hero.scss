@@ -1,5 +1,5 @@
 /* ==========Hero. Баннер, кнопка index.html========== */
-.hero-overlay {
+.hero {
 	background-color: #c4c4c4;
 	max-width: 1600px;
 	height: 600px;
@@ -10,11 +10,6 @@
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-}
-
-.hero-overlay.section {
-	padding-top: 200px;
-	padding-bottom: 200px;
 }
 
 .hero-text {

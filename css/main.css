@@ -99,6 +99,9 @@ body {
   padding-top: 200px;
   padding-bottom: 200px;
 }
+.section.main-doing {
+  padding-top: 0;
+}
 
 .title {
   font-weight: 700;
@@ -490,24 +493,17 @@ body {
 }
 
 /* ==========Чем мы занимаемся index.html========== */
-.main-flex-basis {
+.main-doing__basis {
   flex-basis: calc((100% - 60px) / 3);
-}
-
-.section.main-we-doing {
-  padding-top: 0;
+  position: relative;
+  justify-content: center;
 }
 
 .list.marging-bottom {
   margin-bottom: 50px;
 }
 
-.main-flex-basis {
-  position: relative;
-  justify-content: center;
-}
-
-.label {
+.main-doing__label {
   color: var(--my-white);
   background: rgba(47, 48, 58, 0.8);
   position: absolute;

@@ -4,4 +4,8 @@
 	line-height: 1.67;
 	text-align: center;
 	color: var(--first-text-color);
+
+	&.marging-bottom {
+		margin-bottom: 50px;
+	}
 }

@@ -1,14 +1,10 @@
 /* ==========Наша команда index.html========== */
-.main-team-flex-basis {
+.main-team-basis {
 	flex-basis: calc((100% - 90px) / 4);
 }
 
-.main-team-bg {
+.main-team {
 	background: var(--main-bg);
-}
-
-.title.marging-bottom {
-	margin-bottom: 50px;
 }
 
 .main-team-item {
@@ -20,19 +16,19 @@
 	border-top: none;
 }
 
-.main-team-first.marging-bottom {
-	margin-bottom: 10px;
-}
-
-.main-team-first {
+.main-team-title {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.19;
 	text-align: center;
 	color: var(--first-text-color);
+
+	&.marging-bottom {
+		margin-bottom: 10px;
+	}
 }
 
-.main-team-second {
+.main-team-text {
 	font-size: 16px;
 	line-height: 1.19;
 	text-align: center;

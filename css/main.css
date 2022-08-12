@@ -115,6 +115,10 @@ body {
   margin-bottom: 20px;
 }
 
+.logo-footer {
+  color: var(--my-white);
+}
+
 /* ==========Header шапка сайта (WebStudio, Студия, Портфолио, Контакты, email, tel) index.html========== */
 .header {
   background: var(--my-white);
@@ -613,10 +617,6 @@ body {
   background: var(--background-dark-color);
   padding-top: 60px;
   padding-bottom: 60px;
-}
-
-.logo-footer {
-  color: var(--my-white);
 }
 
 .div-footer-logo-nav {

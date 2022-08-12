@@ -24,6 +24,12 @@
   overflow: hidden;
 }
 
+.main-item-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
 /*Убираем внешние и внутренние отступы*/
 h1,
 h2,
@@ -260,7 +266,6 @@ body {
   transition: opacity var(--transition-value), visibility var(--transition-value);
   z-index: 100;
 }
-
 .hero-modal-backdrop.is-hidden {
   opacity: 0;
   visibility: hidden;
@@ -297,9 +302,7 @@ body {
 .modal-close-btn-icon {
   transition: fill var(--transition-value);
 }
-
-.hero-modal-btn:hover .modal-close-btn-icon,
-.hero-modal-btn:focus .modal-close-btn-icon {
+.hero-modal-btn:hover .modal-close-btn-icon, .hero-modal-btn:focus .modal-close-btn-icon {
   fill: var(--accent-color);
 }
 
@@ -441,34 +444,26 @@ body {
 }
 
 /* ==========Наши основные особенности index.html========== */
-.main-basic-first {
+.main-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--first-text-color);
 }
+.main-title.marging-bottom {
+  margin-bottom: 10px;
+}
 
-.main-basic-second {
+.main-text {
   line-height: 1.71;
   color: var(--second-text-color);
 }
 
-.main-basic-first.marging-bottom {
-  margin-bottom: 10px;
-}
-
-.main-item-flex {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-}
-
-.main-features-flex-basis {
+.main-features {
   flex-basis: calc((100% - 90px) / 4);
 }
-
-.main-features-flex-basis::before {
+.main-features::before {
   background: var(--main-bg);
   border-radius: 4px;
   display: block;
@@ -481,20 +476,16 @@ body {
   background-origin: content-box;
   margin-bottom: 30px;
 }
-
-.main-features-flex-basis:nth-child(1)::before {
+.main-features:nth-child(1)::before {
   background-image: url(../images/key-features/antenna.svg);
 }
-
-.main-features-flex-basis:nth-child(2)::before {
+.main-features:nth-child(2)::before {
   background-image: url(../images/key-features/clock.svg);
 }
-
-.main-features-flex-basis:nth-child(3)::before {
+.main-features:nth-child(3)::before {
   background-image: url(../images/key-features/diagram.svg);
 }
-
-.main-features-flex-basis:nth-child(4)::before {
+.main-features:nth-child(4)::before {
   background-image: url(../images/key-features/astronaut.svg);
 }
 

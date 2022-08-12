@@ -1,57 +1,51 @@
 /* ==========Наши основные особенности index.html========== */
-.main-basic-first {
+.main-title {
 	font-weight: 700;
 	font-size: 14px;
 	line-height: 1.14;
 	text-transform: uppercase;
 	color: var(--first-text-color);
+
+	&.marging-bottom {
+		margin-bottom: 10px;
+	}
 }
 
-.main-basic-second {
+.main-text {
 	line-height: 1.71;
 	color: var(--second-text-color);
 }
 
-.main-basic-first.marging-bottom {
-	margin-bottom: 10px;
-}
-
-.main-item-flex {
-	display: flex;
-	flex-wrap: wrap;
-	gap: 30px;
-}
-
-.main-features-flex-basis {
+.main-features {
 	flex-basis: calc((100% - 90px) / 4);
-}
 
-.main-features-flex-basis::before {
-	background: var(--main-bg);
-	border-radius: 4px;
-	display: block;
-	content: "";
-	width: auto;
-	height: 120px;
-	background-size: 70px;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-origin: content-box;
-	margin-bottom: 30px;
-}
+	&::before {
+		background: var(--main-bg);
+		border-radius: 4px;
+		display: block;
+		content: "";
+		width: auto;
+		height: 120px;
+		background-size: 70px;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-origin: content-box;
+		margin-bottom: 30px;
+	}
 
-.main-features-flex-basis:nth-child(1)::before {
-	background-image: url(../images/key-features/antenna.svg);
-}
+	&:nth-child(1)::before {
+		background-image: url(../images/key-features/antenna.svg);
+	}
 
-.main-features-flex-basis:nth-child(2)::before {
-	background-image: url(../images/key-features/clock.svg);
-}
+	&:nth-child(2)::before {
+		background-image: url(../images/key-features/clock.svg);
+	}
 
-.main-features-flex-basis:nth-child(3)::before {
-	background-image: url(../images/key-features/diagram.svg);
-}
+	&:nth-child(3)::before {
+		background-image: url(../images/key-features/diagram.svg);
+	}
 
-.main-features-flex-basis:nth-child(4)::before {
-	background-image: url(../images/key-features/astronaut.svg);
+	&:nth-child(4)::before {
+		background-image: url(../images/key-features/astronaut.svg);
+	}
 }

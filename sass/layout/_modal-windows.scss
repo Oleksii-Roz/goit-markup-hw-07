@@ -9,12 +9,12 @@
 
 	transition: opacity var(--transition-value), visibility var(--transition-value);
 	z-index: 100;
-}
 
-.hero-modal-backdrop.is-hidden {
-	opacity: 0;
-	visibility: hidden;
-	pointer-events: none;
+	&.is-hidden {
+		opacity: 0;
+		visibility: hidden;
+		pointer-events: none;
+	}
 }
 
 .hero-modal {
@@ -47,9 +47,9 @@
 
 .modal-close-btn-icon {
 	transition: fill var(--transition-value);
-}
 
-.hero-modal-btn:hover .modal-close-btn-icon,
-.hero-modal-btn:focus .modal-close-btn-icon {
-	fill: var(--accent-color);
+	.hero-modal-btn:hover &,
+	.hero-modal-btn:focus & {
+		fill: var(--accent-color);
+	}
 }
